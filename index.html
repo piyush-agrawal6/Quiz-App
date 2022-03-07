@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="questions">
+        <h2 id="question">question text</h2>
+        <ul>
+          <li>
+            <input type="radio" id="a" name="option" class="answer" />
+            <label id="optionA" for="a">option</label>
+          </li>
+          <li>
+            <input type="radio" id="b" name="option" class="answer" />
+            <label id="optionB" for="b">option</label>
+          </li>
+          <li>
+            <input type="radio" id="c" name="option" class="answer" />
+            <label id="optionC" for="c">option</label>
+          </li>
+          <li>
+            <input type="radio" id="d" name="option" class="answer" />
+            <label id="optionD" id="options" for="d">option</label>
+          </li>
+        </ul>
+      </div>
+      <button id="btn">SUBMIT</button>
+      <div class="showArea" id="showScore"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
